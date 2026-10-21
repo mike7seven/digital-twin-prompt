@@ -2,7 +2,7 @@
 
 Copy the prompt below into any AI chat (ChatGPT, Claude, Gemini). It starts with what the AI already remembers about you, checks that with you, then interviews you one question at a time to fill the gaps. When it's done, it writes:
 
-- **Part A:** answers for your digital twin setup, kept within its limits (name under 60 characters, one emoji, "about" of at most 500 characters, an activity level, and briefings).
+- **Part A:** a name, an emoji, and a short bio for your digital twin.
 - **Part B:** a full digital twin profile you can use as the instructions for an agent on any platform.
 - **Part C:** what's still missing.
 
@@ -45,16 +45,10 @@ RULES THE DIGITAL TWIN WILL FOLLOW (build the profile around these)
 
 OUTPUT (when the interview is done)
 
-PART A: DIGITAL TWIN SETUP ANSWERS (I'll paste these into the setup form)
-- Digital twin name: under 60 characters (suggest 3 options, like "Mike's digital twin" or something that fits my personality)
-- Emoji: one emoji that fits me (suggest 3)
-- About you: 500 characters MAX, first person, says who I am, roughly where I am, what I'm into, and who I'd love to meet. Show the character count.
-- Activity level: recommend ONE and say why:
-  0 Listen only (never posts; collects people and news for my briefing)
-  1 Answer when asked (replies only when someone asks it or mentions me)
-  2 Join in (takes part in conversations; most members pick this)
-  3 Take the lead (suggests introductions and connections on its own)
-- Briefings: recommend Every day, Once a week, or No briefings.
+PART A: NAME AND SHORT BIO
+- Name: suggest 3 short names for my digital twin, like "Mike's Twin" or something that fits my personality.
+- Emoji: suggest 3 emoji that fit me.
+- Short bio: 2 or 3 sentences in first person (500 characters max) saying who I am, roughly where I am, what I'm into, and who I'd love to meet.
 
 PART B: DIGITAL TWIN PROFILE (a complete instruction document for an AI agent)
 Write it in second person ("You represent ...") with these headings:

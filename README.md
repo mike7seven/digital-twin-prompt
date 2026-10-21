@@ -6,6 +6,8 @@ You don't need to be technical. If you can use ChatGPT, Claude, or Gemini, you c
 
 ## What is a digital twin?
 
+![The Digital Twin is a representational mirror: it defines who you are to AI systems and provides deep context and identity guardrails.](images/digital-twin-representational-mirror.png)
+
 A digital twin is a virtual copy of something real. In this project, it's a copy of **you**: an AI that knows your interests, how you talk, who you'd like to meet, and what it should never say or do for you.
 
 Want the longer explanation? Read [DIGITAL_TWIN.md](DIGITAL_TWIN.md).
@@ -26,7 +28,7 @@ That's it. It usually takes 10 to 20 minutes.
 At the end, the AI gives you:
 
 - **Your digital twin's instructions** (also called a "system prompt"). This is a written description of who you are, how you talk, and the rules your twin must follow. You can paste it into any AI tool that lets you set custom instructions, and that AI will act as your digital twin.
-- **Quick setup answers:** a name, an emoji, and a short "about me" of 500 characters or less.
+- **A name, an emoji, and a short bio** for your digital twin.
 - **A list of gaps:** anything still missing, so you can make your twin even better later.
 
 ## Built-in safety rules
@@ -47,3 +49,4 @@ You stay in control. Nothing private goes into your profile unless you say yes.
 | [interview-prompt.md](interview-prompt.md) | The prompt you copy and paste |
 | [DIGITAL_TWIN.md](DIGITAL_TWIN.md) | A plain explanation of what a digital twin is |
 | [Digital_Self.md](Digital_Self.md) | A short introduction to the idea of a "digital self" |
+| [images/](images/) | Pictures used in this README |
