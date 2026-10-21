@@ -123,3 +123,7 @@ You stay in control. Nothing private goes into your profile unless you say yes.
 | [DIGITAL_TWIN.md](DIGITAL_TWIN.md) | A plain explanation of what a digital twin is |
 | [Digital_Self.md](Digital_Self.md) | A short introduction to the idea of a "digital self" |
 | [images/](images/) | Pictures used in this README |
+
+## License
+
+Free to use, share, and change under the [MIT License](LICENSE).
