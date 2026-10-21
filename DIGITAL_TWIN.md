@@ -32,6 +32,38 @@ A digital twin is more than a 3D model or a simulation. Three things set it apar
 | **Visualization & interface** | Dashboards, 3D views, or AR/VR that let people inspect and interact with the twin |
 | **Feedback loop** | Feeds decisions or control signals back to the physical entity |
 
+## Anatomy of a Personal Digital Twin
+
+When a digital twin represents a person, the components above come down to three layers:
+
+```text
+Digital Twin (simplified)
+├── Persistent Preferences
+│   ├── Communication style
+│   ├── Priority hierarchies (what counts as "urgent")
+│   ├── Autonomy grants (what can be done without asking)
+│   └── Domain-specific rules
+│
+├── Current State
+│   ├── Availability mode (deep work / available / relaxing / sleeping)
+│   ├── Active context (what am I working on right now)
+│   ├── Attention budget (how much interruption capacity remains)
+│   └── Recent interactions (what's already been surfaced)
+│
+└── Feedback Integration
+    ├── "That wasn't urgent enough" → adjusts threshold
+    ├── "Good catch" → reinforces pattern
+    └── "Always tell me about X" → adds rule
+```
+
+| Layer | Changes | Role |
+|---|---|---|
+| **Persistent Preferences** | Rarely | The person's lasting rules: how they communicate, what matters most, and how much the twin may do on its own. This is the "model" of the person. |
+| **Current State** | Constantly | A live picture of the person right now: availability, focus, and remaining attention. This is the "data connection" that keeps the twin in sync. |
+| **Feedback Integration** | With each correction | The feedback loop. The person's reactions tune the preferences over time, so the twin gets more accurate the more it's used. |
+
+The three layers mirror the three defining elements of any digital twin: a model, a live data connection, and a feedback loop.
+
 ## Levels of Integration
 
 Systems are often grouped by how tightly the digital and physical sides are coupled:
