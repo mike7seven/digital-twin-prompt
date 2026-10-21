@@ -6,7 +6,7 @@ You don't need to be technical. If you can use ChatGPT, Claude, or Gemini, you c
 
 ## What is a digital twin?
 
-![The Digital Twin is a representational mirror, not an agentic actor. A representational mirror defines who you are to AI systems and provides deep context and identity guardrails. It does not autonomously act on your behalf or execute final commands without oversight.](images/digital-twin-representational-mirror.png)
+![The Digital Twin is a representational mirror: it defines who you are to AI systems and provides deep context and identity guardrails.](images/digital-twin-representational-mirror.jpeg)
 
 A digital twin is a virtual copy of something real. In this project, it's a copy of **you**: an AI that knows your interests, how you talk, who you'd like to meet, and what it should never say or do for you.
 
