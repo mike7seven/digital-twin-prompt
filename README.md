@@ -63,6 +63,17 @@ At the end, the AI gives you:
 - **A name, an emoji, and a short bio** for your digital twin.
 - **A list of gaps:** anything still missing, so you can make your twin even better later.
 
+## Use your twin in an AI agent app
+
+You can turn your system prompt into a digital twin inside an AI agent app. There are ready-made templates for:
+
+- **Claude Code** (as a subagent)
+- **OpenCode** (as an agent you switch to)
+- **Google Antigravity (`agy`)** (as a custom agent)
+- **Meta Muse** (tips only, since it doesn't use files)
+
+Each template turns off the app's ability to run commands, change files, and browse the web, so your twin only talks. See [USING-WITH-AGENTS.md](USING-WITH-AGENTS.md) for step-by-step setup.
+
 ## Example system prompt
 
 Here's a short example for a made-up person named Sam, so you can see what the finished instructions look like. Yours will be longer and based on your own answers.
@@ -170,6 +181,8 @@ You stay in control. Nothing private goes into your profile unless you say yes.
 | [interview-prompt.md](interview-prompt.md) | The prompt you copy and paste |
 | [DIGITAL_TWIN.md](DIGITAL_TWIN.md) | A plain explanation of what a digital twin is |
 | [Digital_Self.md](Digital_Self.md) | A short introduction to the idea of a "digital self" |
+| [USING-WITH-AGENTS.md](USING-WITH-AGENTS.md) | How to set up your twin in Claude Code, OpenCode, Antigravity, or Muse |
+| [agents/](agents/) | Ready-made templates for each AI agent app |
 | [images/](images/) | Pictures used in this README |
 
 ## License
