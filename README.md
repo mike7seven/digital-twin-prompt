@@ -70,13 +70,38 @@ Choose one of these options. Option A is the easiest. Option B gives you the mos
 
 ### Option A: In an AI chat app
 
-Most AI chat apps let you save instructions for a group of chats. Look for a feature like **Projects** (ChatGPT, Claude) or **Gems** (Gemini).
+#### ChatGPT or Claude
 
-1. Create a new project or Gem and name it after your twin.
+Both apps have **Projects**, which let you save instructions for a group of chats.
+
+1. Create a new project and name it after your twin.
 2. Paste Part B into its instructions box.
 3. Start a chat inside it. That chat is now your twin.
 
 If the instructions box has a size limit and Part B is too long, ask the AI to shorten Part B while keeping every rule in the "Hand off to me when..." and "Never" sections.
+
+#### Gemini
+
+**Gems are going away.** Google is replacing Gems with **Skills**. Personal accounts switch on **November 17, 2026**, and existing Gems convert to Skills automatically. Work accounts switch in March 2027 and school accounts in June 2027. Don't build a new twin as a Gem.
+
+To set up your twin as a Skill:
+
+1. On [gemini.google.com](https://gemini.google.com), open **Settings → Skills** and choose **Create manually**.
+2. **Name:** `digital-twin`
+3. **Description:** `Speaks as my digital twin, using my approved profile and rules. Use when someone wants to talk to my twin.`
+4. **Instructions:** paste Part B.
+5. Click **Create**.
+6. To talk to your twin, start a chat, type `/`, and pick `digital-twin`.
+
+You can also start from the ready-made [agents/gemini/digital-twin/SKILL.md](agents/gemini/digital-twin/SKILL.md) template: paste Part B into it where shown, then upload it on the Skills page.
+
+**Know this first:**
+
+- Skills need a personal Google Account, age 18 or older, and **Keep Activity** turned on.
+- Skills were made for tasks, not characters. Google's own advice is to keep the steps and drop the persona, and it hasn't said whether a Skill stays switched on for a whole chat. If your twin slips out of character, type `/digital-twin` again.
+- On the phone app, Skills you create manually don't save yet. Use the website or the Mac app.
+
+If you need your twin to stay in character reliably, ChatGPT or Claude Projects (above) or Option B are better fits.
 
 ### Option B: In an AI agent app
 
@@ -167,7 +192,7 @@ Your twin gets better the more you correct it:
 - **Fill the gaps.** Look for `[NEEDS INPUT]` in Part B and add the answers.
 - **Redo the interview** whenever your life, interests, or boundaries change. It starts from what the AI already knows, so later rounds are quicker.
 
-After any change, update the copy your twin uses (the project, Gem, or agent file from Step 4).
+After any change, update the copy your twin uses (the project, Skill, or agent file from Step 4).
 
 ## How your twin thinks
 
@@ -312,13 +337,14 @@ This guide was presented at the **denhac AI SIG** in Denver on **Thursday, Octob
 | File | What it is |
 |---|---|
 | [interview-prompt.md](interview-prompt.md) | The interview prompt you copy and paste (Step 2) |
-| [agents/](agents/) | Templates for Claude Code, OpenCode, and Antigravity (Step 4) |
+| [agents/](agents/) | Templates for Gemini Skills, Claude Code, OpenCode, and Antigravity (Step 4) |
 | [DIGITAL_TWIN.md](DIGITAL_TWIN.md) | A longer explanation of what a digital twin is |
 | [Digital_Self.md](Digital_Self.md) | A short introduction to the idea of a "digital self" |
 | [images/](images/) | Pictures used in this guide |
 
 ## Sources
 
+- Gemini Gems to Skills: [TechRepublic](https://www.techrepublic.com/article/news-gemini-gems-skills-migration/), [Android Headlines](https://www.androidheadlines.com/2026/10/google-makes-gemini-skills-official-to-automate-tasks-and-replace-gems.html), [Yahoo Tech](https://tech.yahoo.com/ai/gemini/articles/google-replacing-gemini-gems-skills-101100655.html), and [FindSkill setup guide](https://findskill.ai/blog/gemini-gems-become-skills-dates-setup-2026/)
 - [Claude Code subagents](https://code.claude.com/docs/en/sub-agents)
 - [OpenCode agents](https://opencode.ai/docs/agents/)
 - [Antigravity subagents (CLI)](https://antigravity.google/docs/subagents?tab=cli), [rules](https://antigravity.google/docs/rules/), and [Gemini CLI migration](https://antigravity.google/docs/cli/gcli-migration/)
