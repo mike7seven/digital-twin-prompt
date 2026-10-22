@@ -4,6 +4,13 @@ A simple, copy-and-paste prompt that helps you create your own **digital twin**:
 
 You don't need to be technical. If you can use ChatGPT, Claude, or Gemini, you can use this.
 
+## Talk: Building Your Digital Twin
+
+This project was presented at the **denhac AI SIG** in Denver on **Thursday, October 22, 2026**, 6:00 to 8:00 PM MDT, at 700 Kalamath Street.
+
+- [Event page on Meetup](https://www.meetup.com/denhac-hackerspace/events/315405129/)
+- [Add to Google Calendar](https://calendar.google.com/calendar/u/0/event?eid=dDQwbWNxdDc0bnFvbTNsZGJjdTJpYm41bjFfMjAyNjEwMjNUMDAwMDAwWiBjYWxlbmRhckBkZW5oYWMub3Jn)
+
 ## What is a digital twin?
 
 ![The Digital Twin is a representational mirror: it defines who you are to AI systems and provides deep context and identity guardrails.](images/digital-twin-representational-mirror.jpeg)
